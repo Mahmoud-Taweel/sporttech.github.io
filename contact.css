@@ -1,0 +1,91 @@
+
+
+body {
+    margin: auto;
+    background-color: black;
+    max-width: 80%;
+    min-height: 200px;
+    padding: 5%;
+}
+
+footer {
+    padding: 5%;
+}
+
+h1 {
+    border-style: solid;
+    border-bottom-color: burlywood;
+    border-top-color: burlywood;
+    border-left-color: burlywood;
+    border-right-color: burlywood;
+    text-align: center;
+    font-size: 16pt;
+    color: #89cff0;
+    font-family: "Georgia";
+    @media (width >= 40em){
+        font-size: 20pt;
+    }
+    @media (width >= 60em){
+        font-size: 24pt;
+    }
+}
+
+h2 {
+    text-align: left;
+    font-size: 12pt;
+    line-height: 140%;
+    color: white;
+    font-weight: bold;
+    font-family: "Garamond";
+    @media (width >= 40em){
+        font-size: 14pt;
+    }
+    @media (width >= 60em){
+        font-size: 18pt;
+    }
+}
+
+h3{
+    text-align: left;
+    font-size: 10pt;
+    line-height: 140%;
+    color: gray;
+    font-weight: bold;
+    font-family: "Arila";
+    @media (width >= 40em){
+        font-size: 12pt;
+    }
+    @media (width >= 60em){
+        font-size: 16pt;
+    }
+}
+
+h4{
+    text-align: left;
+    font-size: 10pt;
+    line-height: 140%;
+    color: gray;
+    font-weight: bold;
+    font-family: "Garamond";
+    @media (width >= 40em){
+        font-size: 12pt;
+    }
+    @media (width >= 60em){
+        font-size: 16pt;
+    }
+}
+
+img {
+    max-width: 80%;
+    min-width: 1%;
+    height: auto;
+}
+
+
+textarea{
+    max-width: 100%;
+}
+
+input{
+    max-width: 100%;
+}

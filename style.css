@@ -1,0 +1,115 @@
+body {
+    margin: auto;
+    background-color: black;
+    max-width: 90%;
+    min-height: 200px;
+    padding: 5%;
+}
+footer {
+    padding: 5%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 16pt;
+    color: #89cff0;
+    font-family: "Georgia";
+    @media (width >= 40em){
+        font-size: 20pt;
+    }
+    @media (width >= 60em){
+        font-size: 24pt;
+    }
+}
+
+h2 {
+    text-align: justify;
+    font-size: 12pt;
+    line-height: 140%;
+    color: white;
+    font-family: "Garamond";
+    @media (width >= 40em){
+        font-size: 14pt;
+    }
+    @media (width >= 60em){
+        font-size: 18pt;
+    }
+}
+
+h3 {
+    text-align: left;
+    font-size: 10pt;
+    line-height: 140%;
+    color: #89cff0;
+    font-weight: bold;
+    font-family: "Garamond";
+    @media (width >= 40em){
+        font-size: 12pt;
+    }
+    @media (width >= 60em){
+        font-size: 16pt;
+    }
+}
+
+h4{
+    text-align: left;
+    font-size: 10pt;
+    line-height: 140%;
+    color: gray;
+    font-weight: bold;
+    font-family: "Garamond";
+    @media (width >= 40em){
+        font-size: 12pt;
+    }
+    @media (width >= 60em){
+        font-size: 16pt;
+    }
+}
+
+.highlight{
+    color: rosybrown;
+    font-size: 14;
+    font-weight: bold;
+
+    @media (width >= 40em){
+        font-size: 16pt;
+    }
+    @media (width >= 60em){
+        font-size: 20pt;
+    }
+}
+
+
+img {
+    max-width: 80%;
+    min-width: 1%;
+    height: auto;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+    grid-auto-rows: 1fr;
+    @media (width >= 40em){
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media (width >= 60em){
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.card{
+    margin: 5%;
+    background-color: grey;
+    border: 2px solid #fff;
+    border-radius: 12px;
+    padding: 16px;
+   
+}
+
+.bodycontainer {
+	display: block;
+	text-align: center;
+}
+
